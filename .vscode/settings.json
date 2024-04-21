@@ -1,0 +1,8 @@
+{
+    "rust-analyzer.linkedProjects": [
+        ".\\analyser\\Cargo.toml",
+        ".\\wasm\\Cargo.toml",
+
+    ],
+    "rust-analyzer.showUnlinkedFileNotification": true
+}

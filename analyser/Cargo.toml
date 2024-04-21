@@ -1,0 +1,15 @@
+[package]
+name = "analyser"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = "1.0"
+serde-xml-rs = "0.6.0"
+serde = { version = "1.0.198" , features = ["derive"]}
+xml = "0.8.20"
+regex = "1.10.4"
+wikidump = "0.3.0"
+

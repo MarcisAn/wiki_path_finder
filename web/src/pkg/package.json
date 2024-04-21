@@ -1,0 +1,14 @@
+{
+  "name": "wiki-graph",
+  "version": "0.1.0",
+  "files": [
+    "wiki_graph_bg.wasm",
+    "wiki_graph.js",
+    "wiki_graph.d.ts"
+  ],
+  "module": "wiki_graph.js",
+  "types": "wiki_graph.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
