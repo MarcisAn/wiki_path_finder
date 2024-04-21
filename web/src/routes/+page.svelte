@@ -42,7 +42,7 @@
     {#each $result as node, i}
       <p>{node}</p>
       {#if i != $result.length - 1}
-        <p>---></p>
+        <p> ---> </p>
       {/if}
     {/each}
   </div>

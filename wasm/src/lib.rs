@@ -62,6 +62,9 @@ pub fn run(a: &str, b: &str) {
         |_| 0,
     );
     let mut path_titles: Vec<String> = vec![];
+    if path.is_none(){
+        display_result("ERROR");
+    }
     for node in path.unwrap().1.iter() {
         path_titles.push(pages[node.index()].title.clone());
     }
