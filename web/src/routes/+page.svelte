@@ -46,4 +46,6 @@
       {/if}
     {/each}
   </div>
+  <a class="mt-10" href="https://marcisan.vercel.app/posts/wiki-links">Par lapu</a>
+
 </div>
