@@ -26,6 +26,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@sveltejs/adapter-vercel": "1.0.2",
     "bits-ui": "^0.21.4",
     "clsx": "^2.1.0",
     "cmdk-sv": "^0.0.17",
